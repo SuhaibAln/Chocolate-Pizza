@@ -1,0 +1,169 @@
+html{
+  margin-left: 20%;
+  margin-right: 32%;
+}
+
+
+/* https://codepen.io/joeyhoer/pen/AgbXOj */
+.slash {
+  height: 1.3rem;
+  background-image: linear-gradient(
+    45deg,
+    #fff,
+    #fff 25%,
+    #bbb 25%,
+    #bbb 50%,
+    #fff 50%,
+    #fff 75%,
+    #bbb 75%
+  );
+  background-size: 0.4rem 0.4rem;
+  border: none;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+
+#logo{
+  flex: 1;
+  display: flex;
+}
+
+#logo > img {
+  width: 60px;
+  height: 60px;
+  align-self: center;
+}
+
+#share-icons{
+  margin-top: 5px;
+  align-self: center;
+}
+
+#logo > div > h4, p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+
+#logo > div > h4 {
+  font-size: 30px;
+}
+
+#logo > div > p {
+  font-size: 12px;
+}
+
+img:nth-last-of-type(2){
+  margin-left: 4px;
+}
+
+.back-bar {
+  background-image: url("img/hr-img.png");
+  height: 10px;
+  min-width: 900px;
+  margin-top: 20px;
+}
+
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#mainDiv > img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#mainDiv > p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#subheader {
+  display: inline-block;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+#subheader > section {
+  display: flex;
+  margin-top: 0px;
+}
+
+#print {
+  min-width: 30px;
+  padding-left: 880px;
+  float: right;
+}
+
+#subheader > section > img {
+  align-self: flex-end;
+}
+
+#list{
+  margin: 10px;
+  background-image: url("img/list-bg.png");
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  width: 87%;
+  padding: 50px;
+  white-space: nowrap;
+  min-width: 800px;
+}
+
+#author{
+  display: flex;
+  margin: 10px;
+  white-space: nowrap;
+}
+
+#author > section {
+  margin-left: 15px;
+}
+
+#author > section > h4 {
+  margin-bottom: 3px;
+}
+
+#author > section > p {
+  margin-top: 10px;
+}
+
+button{
+  height: 40px;
+  width: 150px;
+  margin-top: 15px;
+  margin-left: 20px;
+  background-color: rgb(192, 117, 107);
+  color: white;
+  align-self: center;
+}
+
+footer{
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer > div{
+  display:flex;
+}
+
+
+footer > div > img {
+  height: 30px;
+  width: 30px;
+}
+
+footer > section{
+  margin-top: 15px;
+  color: grey
+}
